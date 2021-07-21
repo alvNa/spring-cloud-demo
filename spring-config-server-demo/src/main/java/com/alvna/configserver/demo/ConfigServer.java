@@ -2,12 +2,12 @@ package com.alvna.configserver.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-public class SpringConfigServerDemoApplication {
-
+@EnableConfigServer
+public class ConfigServer {
 	public static void main(String[] args) {
-		SpringApplication.run(SpringConfigServerDemoApplication.class, args);
+		SpringApplication.run(ConfigServer.class, args);
 	}
-
 }
