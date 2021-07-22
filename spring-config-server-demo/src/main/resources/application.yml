@@ -1,11 +1,3 @@
-#spring:
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/alvNa/spring-cloud-demo/tree/main/configurations-data
-#          skipSslValidation: true
-
 server:
   port: ${PORT:8888}
 
@@ -19,17 +11,6 @@ spring:
       server:
         git:
           uri: https://github.com/alvNa/spring-cloud-demo.git
-          #searchPaths: configurations-data
+          searchPaths: configurations-data
           skipSslValidation: true
           default-label: main
-        native:
-          searchLocations: configurations-data
-
-#    name: config-server
-#  profiles:
-#    active: git
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/refactorizando-web/spring-cloud-config-server-git
