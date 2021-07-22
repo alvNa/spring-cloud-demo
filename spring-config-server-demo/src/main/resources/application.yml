@@ -15,7 +15,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/alvNa/spring-cloud-demo
+          uri: https://github.com/alvNa/spring-cloud-demo.git
           searchPaths: configurations-data
           skipSslValidation: true
           default-label: main
