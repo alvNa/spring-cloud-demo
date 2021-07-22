@@ -2,3 +2,5 @@ properties:
   hello: hola
   bye: adios
 global-message: Configuration server is alive!
+database:
+  uri: oracle.database.uri

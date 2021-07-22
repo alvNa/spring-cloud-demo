@@ -1,3 +1,5 @@
 server:
   port: ${PORT:8889}
-message: Consumer configuration server is alive!
+message: Orders configuration server is alive!
+spring:
+  jdbc: ${database.uri}/schema-orders
