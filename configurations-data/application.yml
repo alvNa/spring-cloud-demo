@@ -1,3 +1,4 @@
 properties:
   hello: hola
   bye: adios
+global-message: Configuration server is alive!
